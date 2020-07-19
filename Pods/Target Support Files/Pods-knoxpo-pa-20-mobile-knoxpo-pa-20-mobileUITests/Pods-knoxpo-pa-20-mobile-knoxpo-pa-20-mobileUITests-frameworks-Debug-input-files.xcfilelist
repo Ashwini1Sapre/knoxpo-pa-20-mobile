@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework
+${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

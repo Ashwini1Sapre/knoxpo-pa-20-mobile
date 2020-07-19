@@ -3,10 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0455F6D424C3FFAD0024AEDB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6C924C3FFAB0024AEDB /* MainController.swift */; };
+		0455F6D524C3FFAD0024AEDB /* FileExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6CB24C3FFAC0024AEDB /* FileExtenstions.swift */; };
+		0455F6D624C3FFAD0024AEDB /* FileLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6CD24C3FFAC0024AEDB /* FileLocation.swift */; };
+		0455F6D724C3FFAD0024AEDB /* FileForecastwheather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6CE24C3FFAC0024AEDB /* FileForecastwheather.swift */; };
+		0455F6D824C3FFAD0024AEDB /* FileWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6CF24C3FFAC0024AEDB /* FileWeather.swift */; };
+		0455F6D924C3FFAD0024AEDB /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6D124C3FFAC0024AEDB /* WeatherCell.swift */; };
+		0455F6DA24C3FFAD0024AEDB /* FileUrlClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6D324C3FFAC0024AEDB /* FileUrlClass.swift */; };
+		0455F6DC24C400580024AEDB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6DB24C400580024AEDB /* SearchViewController.swift */; };
+		0455F6DE24C400A40024AEDB /* DetailsWeatherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6DD24C400A40024AEDB /* DetailsWeatherTableViewController.swift */; };
+		0455F6E024C400F30024AEDB /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6DF24C400F30024AEDB /* CurrentLocationViewController.swift */; };
+		0455F6E224C401520024AEDB /* Main1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6E124C401520024AEDB /* Main1ViewController.swift */; };
+		0455F6E424C4018D0024AEDB /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6E324C4018D0024AEDB /* CitiesViewController.swift */; };
+		0455F6E624C401F30024AEDB /* NearByTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6E524C401F30024AEDB /* NearByTableViewCell.swift */; };
+		0455F6E824C402190024AEDB /* NearByTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455F6E724C402190024AEDB /* NearByTableViewCell.xib */; };
+		0455F6EA24C4023D0024AEDB /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6E924C4023D0024AEDB /* CityTableViewCell.swift */; };
+		0455F6EC24C402540024AEDB /* CityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455F6EB24C402540024AEDB /* CityTableViewCell.xib */; };
+		0455F6EE24C402880024AEDB /* WeatherCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6ED24C402880024AEDB /* WeatherCityTableViewCell.swift */; };
+		0455F6F024C402A00024AEDB /* WeatherCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0455F6EF24C402A00024AEDB /* WeatherCityTableViewCell.xib */; };
+		0455F6F224C403EE0024AEDB /* CurrentLocationViewController + Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6F124C403EE0024AEDB /* CurrentLocationViewController + Location.swift */; };
+		0455F6F424C404060024AEDB /* UIViewController + Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6F324C404060024AEDB /* UIViewController + Loader.swift */; };
+		0455F6F624C4042B0024AEDB /* UIColor + HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6F524C4042B0024AEDB /* UIColor + HEX.swift */; };
+		0455F6F824C404800024AEDB /* PlacemarkCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6F724C404800024AEDB /* PlacemarkCity.swift */; };
+		0455F6FA24C4049F0024AEDB /* DayWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6F924C4049F0024AEDB /* DayWeatherModel.swift */; };
+		0455F6FD24C405EA0024AEDB /* City+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6FC24C405EA0024AEDB /* City+CoreDataProperties.swift */; };
+		0455F6FF24C406060024AEDB /* City+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6FE24C406060024AEDB /* City+CoreDataClass.swift */; };
+		0455F70124C406220024AEDB /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70024C406220024AEDB /* CoreDataManager.swift */; };
+		0455F70324C4063A0024AEDB /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70224C4063A0024AEDB /* CoreDataProvider.swift */; };
+		0455F70924C407F10024AEDB /* CityJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70824C407F10024AEDB /* CityJson.swift */; };
+		0455F70B24C408050024AEDB /* ForcastJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70A24C408050024AEDB /* ForcastJson.swift */; };
+		0455F70D24C4081B0024AEDB /* NearPlaceJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70C24C4081B0024AEDB /* NearPlaceJson.swift */; };
+		0455F70F24C408630024AEDB /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F70E24C408630024AEDB /* JSONSerializer.swift */; };
+		0455F71124C4088E0024AEDB /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71024C4088E0024AEDB /* Serializer.swift */; };
+		0455F71424C408F80024AEDB /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71324C408F80024AEDB /* APIRequest.swift */; };
+		0455F71624C4090C0024AEDB /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71524C4090C0024AEDB /* BaseRequest.swift */; };
+		0455F71824C409210024AEDB /* GetWeatherForCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71724C409210024AEDB /* GetWeatherForCity.swift */; };
+		0455F71A24C409340024AEDB /* GetWeatherForecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71924C409340024AEDB /* GetWeatherForecast.swift */; };
+		0455F71C24C409470024AEDB /* GetWeatherNearBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71B24C409470024AEDB /* GetWeatherNearBy.swift */; };
+		0455F71E24C409BE0024AEDB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71D24C409BE0024AEDB /* APIClient.swift */; };
+		0455F72024C409D20024AEDB /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F71F24C409D20024AEDB /* APIProvider.swift */; };
+		0455F72224C409E70024AEDB /* InternetCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F72124C409E70024AEDB /* InternetCheck.swift */; };
+		0455F72424C40A120024AEDB /* DataTimeFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F72324C40A120024AEDB /* DataTimeFormat.swift */; };
+		0455F72724C40AA70024AEDB /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 0455F72624C40AA70024AEDB /* style.json */; };
+		0455F72924C40ABE0024AEDB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F72824C40ABE0024AEDB /* Constants.swift */; };
+		0455F72B24C40AE10024AEDB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F72A24C40AE10024AEDB /* RoundedButton.swift */; };
+		0455F72E24C40C720024AEDB /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0455F72D24C40C720024AEDB /* Back.png */; };
+		047B9E5B24C42149007F625B /* partlysunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 047B9E5A24C42149007F625B /* partlysunny.png */; };
+		04E6213C24C4750C0016A87E /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E6213B24C4750C0016A87E /* 58.png */; };
 		04F8609C24C3F8CD00CB6EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8609B24C3F8CC00CB6EF0 /* AppDelegate.swift */; };
 		04F8609E24C3F8CD00CB6EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8609D24C3F8CD00CB6EF0 /* ViewController.swift */; };
 		04F860A124C3F8CD00CB6EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8609F24C3F8CD00CB6EF0 /* Main.storyboard */; };
@@ -15,6 +62,8 @@
 		04F860A924C3F8CF00CB6EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F860A724C3F8CF00CB6EF0 /* LaunchScreen.storyboard */; };
 		04F860B424C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F860B324C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift */; };
 		04F860BF24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F860BE24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift */; };
+		2137CB5EC9C9E05D5DF1F5F2 /* Pods_knoxpo_pa_20_mobile_knoxpo_pa_20_mobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27CAB958D5AD280ED3A40F25 /* Pods_knoxpo_pa_20_mobile_knoxpo_pa_20_mobileUITests.framework */; };
+		CBD09CD9A1E0FEEDFE7ED6AB /* Pods_knoxpo_pa_20_mobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101EFA65307383E5C712B1E1 /* Pods_knoxpo_pa_20_mobileTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +84,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0455F6C924C3FFAB0024AEDB /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		0455F6CB24C3FFAC0024AEDB /* FileExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExtenstions.swift; sourceTree = "<group>"; };
+		0455F6CD24C3FFAC0024AEDB /* FileLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLocation.swift; sourceTree = "<group>"; };
+		0455F6CE24C3FFAC0024AEDB /* FileForecastwheather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileForecastwheather.swift; sourceTree = "<group>"; };
+		0455F6CF24C3FFAC0024AEDB /* FileWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileWeather.swift; sourceTree = "<group>"; };
+		0455F6D124C3FFAC0024AEDB /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		0455F6D324C3FFAC0024AEDB /* FileUrlClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUrlClass.swift; sourceTree = "<group>"; };
+		0455F6DB24C400580024AEDB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		0455F6DD24C400A40024AEDB /* DetailsWeatherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsWeatherTableViewController.swift; sourceTree = "<group>"; };
+		0455F6DF24C400F30024AEDB /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		0455F6E124C401520024AEDB /* Main1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main1ViewController.swift; sourceTree = "<group>"; };
+		0455F6E324C4018D0024AEDB /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
+		0455F6E524C401F30024AEDB /* NearByTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByTableViewCell.swift; sourceTree = "<group>"; };
+		0455F6E724C402190024AEDB /* NearByTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NearByTableViewCell.xib; sourceTree = "<group>"; };
+		0455F6E924C4023D0024AEDB /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
+		0455F6EB24C402540024AEDB /* CityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityTableViewCell.xib; sourceTree = "<group>"; };
+		0455F6ED24C402880024AEDB /* WeatherCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCityTableViewCell.swift; sourceTree = "<group>"; };
+		0455F6EF24C402A00024AEDB /* WeatherCityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCityTableViewCell.xib; sourceTree = "<group>"; };
+		0455F6F124C403EE0024AEDB /* CurrentLocationViewController + Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentLocationViewController + Location.swift"; sourceTree = "<group>"; };
+		0455F6F324C404060024AEDB /* UIViewController + Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Loader.swift"; sourceTree = "<group>"; };
+		0455F6F524C4042B0024AEDB /* UIColor + HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + HEX.swift"; sourceTree = "<group>"; };
+		0455F6F724C404800024AEDB /* PlacemarkCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacemarkCity.swift; sourceTree = "<group>"; };
+		0455F6F924C4049F0024AEDB /* DayWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayWeatherModel.swift; sourceTree = "<group>"; };
+		0455F6FC24C405EA0024AEDB /* City+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0455F6FE24C406060024AEDB /* City+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "City+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0455F70024C406220024AEDB /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		0455F70224C4063A0024AEDB /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
+		0455F70824C407F10024AEDB /* CityJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityJson.swift; sourceTree = "<group>"; };
+		0455F70A24C408050024AEDB /* ForcastJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForcastJson.swift; sourceTree = "<group>"; };
+		0455F70C24C4081B0024AEDB /* NearPlaceJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearPlaceJson.swift; sourceTree = "<group>"; };
+		0455F70E24C408630024AEDB /* JSONSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
+		0455F71024C4088E0024AEDB /* Serializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serializer.swift; sourceTree = "<group>"; };
+		0455F71324C408F80024AEDB /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		0455F71524C4090C0024AEDB /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		0455F71724C409210024AEDB /* GetWeatherForCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherForCity.swift; sourceTree = "<group>"; };
+		0455F71924C409340024AEDB /* GetWeatherForecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherForecast.swift; sourceTree = "<group>"; };
+		0455F71B24C409470024AEDB /* GetWeatherNearBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWeatherNearBy.swift; sourceTree = "<group>"; };
+		0455F71D24C409BE0024AEDB /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		0455F71F24C409D20024AEDB /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		0455F72124C409E70024AEDB /* InternetCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetCheck.swift; sourceTree = "<group>"; };
+		0455F72324C40A120024AEDB /* DataTimeFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTimeFormat.swift; sourceTree = "<group>"; };
+		0455F72624C40AA70024AEDB /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = "<group>"; };
+		0455F72824C40ABE0024AEDB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0455F72A24C40AE10024AEDB /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0455F72D24C40C720024AEDB /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		047B9E5A24C42149007F625B /* partlysunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = partlysunny.png; sourceTree = "<group>"; };
+		04E6213B24C4750C0016A87E /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
 		04F8609824C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "knoxpo-pa-20-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F8609B24C3F8CC00CB6EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F8609D24C3F8CD00CB6EF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +145,15 @@
 		04F860BA24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knoxpo-pa-20-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F860BE24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knoxpo_pa_20_mobileUITests.swift; sourceTree = "<group>"; };
 		04F860C024C3F8CF00CB6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101EFA65307383E5C712B1E1 /* Pods_knoxpo_pa_20_mobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knoxpo_pa_20_mobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CAB958D5AD280ED3A40F25 /* Pods_knoxpo_pa_20_mobile_knoxpo_pa_20_mobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knoxpo_pa_20_mobile_knoxpo_pa_20_mobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2E0BD9CE86952BAE5B601B /* Pods-knoxpo-pa-20-mobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knoxpo-pa-20-mobileTests.release.xcconfig"; path = "Target Support Files/Pods-knoxpo-pa-20-mobileTests/Pods-knoxpo-pa-20-mobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		517BC4F0F035EF12FA60D4CF /* Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.debug.xcconfig"; path = "Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92230455E8283052F0FA4155 /* Pods-knoxpo-pa-20-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knoxpo-pa-20-mobile.release.xcconfig"; path = "Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		A170C9D845223134D612C029 /* Pods-knoxpo-pa-20-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knoxpo-pa-20-mobile.debug.xcconfig"; path = "Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+		AC8842722B8943F7A4E1F0DA /* Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.release.xcconfig"; path = "Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACA2E6A3A23249A87F23CD7D /* Pods-knoxpo-pa-20-mobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-knoxpo-pa-20-mobileTests.debug.xcconfig"; path = "Target Support Files/Pods-knoxpo-pa-20-mobileTests/Pods-knoxpo-pa-20-mobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE998BF3DA095560C1270B47 /* Pods_knoxpo_pa_20_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_knoxpo_pa_20_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD09CD9A1E0FEEDFE7ED6AB /* Pods_knoxpo_pa_20_mobileTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +176,173 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2137CB5EC9C9E05D5DF1F5F2 /* Pods_knoxpo_pa_20_mobile_knoxpo_pa_20_mobileUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0161A7FAB5C342C705FA31DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE998BF3DA095560C1270B47 /* Pods_knoxpo_pa_20_mobile.framework */,
+				27CAB958D5AD280ED3A40F25 /* Pods_knoxpo_pa_20_mobile_knoxpo_pa_20_mobileUITests.framework */,
+				101EFA65307383E5C712B1E1 /* Pods_knoxpo_pa_20_mobileTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0455F6C824C3FFAB0024AEDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6C924C3FFAB0024AEDB /* MainController.swift */,
+				0455F6DB24C400580024AEDB /* SearchViewController.swift */,
+				0455F6DD24C400A40024AEDB /* DetailsWeatherTableViewController.swift */,
+				0455F6DF24C400F30024AEDB /* CurrentLocationViewController.swift */,
+				0455F6E124C401520024AEDB /* Main1ViewController.swift */,
+				0455F6E324C4018D0024AEDB /* CitiesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0455F6CA24C3FFAC0024AEDB /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6CB24C3FFAC0024AEDB /* FileExtenstions.swift */,
+				0455F6F124C403EE0024AEDB /* CurrentLocationViewController + Location.swift */,
+				0455F6F324C404060024AEDB /* UIViewController + Loader.swift */,
+				0455F6F524C4042B0024AEDB /* UIColor + HEX.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		0455F6CC24C3FFAC0024AEDB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6CD24C3FFAC0024AEDB /* FileLocation.swift */,
+				0455F6CE24C3FFAC0024AEDB /* FileForecastwheather.swift */,
+				0455F6CF24C3FFAC0024AEDB /* FileWeather.swift */,
+				0455F6F724C404800024AEDB /* PlacemarkCity.swift */,
+				0455F6F924C4049F0024AEDB /* DayWeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0455F6D024C3FFAC0024AEDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6D124C3FFAC0024AEDB /* WeatherCell.swift */,
+				0455F6E524C401F30024AEDB /* NearByTableViewCell.swift */,
+				0455F6E724C402190024AEDB /* NearByTableViewCell.xib */,
+				0455F6E924C4023D0024AEDB /* CityTableViewCell.swift */,
+				0455F6EB24C402540024AEDB /* CityTableViewCell.xib */,
+				0455F6ED24C402880024AEDB /* WeatherCityTableViewCell.swift */,
+				0455F6EF24C402A00024AEDB /* WeatherCityTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0455F6D224C3FFAC0024AEDB /* Url */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6D324C3FFAC0024AEDB /* FileUrlClass.swift */,
+			);
+			path = Url;
+			sourceTree = "<group>";
+		};
+		0455F6FB24C405950024AEDB /* CoreDataModule */ = {
+			isa = PBXGroup;
+			children = (
+				0455F72F24C41A110024AEDB /* CoreDataManager */,
+				0455F70224C4063A0024AEDB /* CoreDataProvider.swift */,
+			);
+			path = CoreDataModule;
+			sourceTree = "<group>";
+		};
+		0455F70424C4073F0024AEDB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0455F71224C408D00024AEDB /* Request */,
+				0455F70524C407920024AEDB /* Response */,
+				0455F71D24C409BE0024AEDB /* APIClient.swift */,
+				0455F71F24C409D20024AEDB /* APIProvider.swift */,
+				0455F72124C409E70024AEDB /* InternetCheck.swift */,
+				0455F72324C40A120024AEDB /* DataTimeFormat.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0455F70524C407920024AEDB /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				0455F70724C407C40024AEDB /* Serializers */,
+				0455F70624C407B90024AEDB /* Models */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		0455F70624C407B90024AEDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0455F70824C407F10024AEDB /* CityJson.swift */,
+				0455F70A24C408050024AEDB /* ForcastJson.swift */,
+				0455F70C24C4081B0024AEDB /* NearPlaceJson.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0455F70724C407C40024AEDB /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				0455F70E24C408630024AEDB /* JSONSerializer.swift */,
+				0455F71024C4088E0024AEDB /* Serializer.swift */,
+			);
+			path = Serializers;
+			sourceTree = "<group>";
+		};
+		0455F71224C408D00024AEDB /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				0455F71324C408F80024AEDB /* APIRequest.swift */,
+				0455F71524C4090C0024AEDB /* BaseRequest.swift */,
+				0455F71724C409210024AEDB /* GetWeatherForCity.swift */,
+				0455F71924C409340024AEDB /* GetWeatherForecast.swift */,
+				0455F71B24C409470024AEDB /* GetWeatherNearBy.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		0455F72524C40A880024AEDB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				0455F72624C40AA70024AEDB /* style.json */,
+				0455F72824C40ABE0024AEDB /* Constants.swift */,
+				0455F72A24C40AE10024AEDB /* RoundedButton.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		0455F72C24C40C4D0024AEDB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				04E6213B24C4750C0016A87E /* 58.png */,
+				047B9E5A24C42149007F625B /* partlysunny.png */,
+				0455F72D24C40C720024AEDB /* Back.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		0455F72F24C41A110024AEDB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				0455F6FC24C405EA0024AEDB /* City+CoreDataProperties.swift */,
+				0455F6FE24C406060024AEDB /* City+CoreDataClass.swift */,
+				0455F70024C406220024AEDB /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		04F8608F24C3F8CC00CB6EF0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +350,8 @@
 				04F860B224C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests */,
 				04F860BD24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests */,
 				04F8609924C3F8CC00CB6EF0 /* Products */,
+				95B33C8BEE325FDB68B5E06C /* Pods */,
+				0161A7FAB5C342C705FA31DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +368,15 @@
 		04F8609A24C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */ = {
 			isa = PBXGroup;
 			children = (
+				0455F72C24C40C4D0024AEDB /* Image */,
+				0455F72524C40A880024AEDB /* Support */,
+				0455F70424C4073F0024AEDB /* Network */,
+				0455F6FB24C405950024AEDB /* CoreDataModule */,
+				0455F6C824C3FFAB0024AEDB /* Controller */,
+				0455F6CA24C3FFAC0024AEDB /* Extention */,
+				0455F6CC24C3FFAC0024AEDB /* Model */,
+				0455F6D224C3FFAC0024AEDB /* Url */,
+				0455F6D024C3FFAC0024AEDB /* View */,
 				04F8609B24C3F8CC00CB6EF0 /* AppDelegate.swift */,
 				04F8609D24C3F8CD00CB6EF0 /* ViewController.swift */,
 				04F8609F24C3F8CD00CB6EF0 /* Main.storyboard */,
@@ -128,6 +406,19 @@
 			path = "knoxpo-pa-20-mobileUITests";
 			sourceTree = "<group>";
 		};
+		95B33C8BEE325FDB68B5E06C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A170C9D845223134D612C029 /* Pods-knoxpo-pa-20-mobile.debug.xcconfig */,
+				92230455E8283052F0FA4155 /* Pods-knoxpo-pa-20-mobile.release.xcconfig */,
+				517BC4F0F035EF12FA60D4CF /* Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.debug.xcconfig */,
+				AC8842722B8943F7A4E1F0DA /* Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.release.xcconfig */,
+				ACA2E6A3A23249A87F23CD7D /* Pods-knoxpo-pa-20-mobileTests.debug.xcconfig */,
+				4C2E0BD9CE86952BAE5B601B /* Pods-knoxpo-pa-20-mobileTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +426,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F860C324C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobile" */;
 			buildPhases = (
+				E54553EFC5F93E38BF5D699C /* [CP] Check Pods Manifest.lock */,
 				04F8609424C3F8CC00CB6EF0 /* Sources */,
 				04F8609524C3F8CC00CB6EF0 /* Frameworks */,
 				04F8609624C3F8CC00CB6EF0 /* Resources */,
+				316E1AA2D1D2AE0BF53C328A /* [CP] Embed Pods Frameworks */,
+				E42EDC51F26D255D3B4B7E86 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +446,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F860C624C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobileTests" */;
 			buildPhases = (
+				79B82953914267C701F0C514 /* [CP] Check Pods Manifest.lock */,
 				04F860AB24C3F8CF00CB6EF0 /* Sources */,
 				04F860AC24C3F8CF00CB6EF0 /* Frameworks */,
 				04F860AD24C3F8CF00CB6EF0 /* Resources */,
@@ -170,9 +465,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F860C924C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobileUITests" */;
 			buildPhases = (
+				F5380B7DB7224D27C8E61668 /* [CP] Check Pods Manifest.lock */,
 				04F860B624C3F8CF00CB6EF0 /* Sources */,
 				04F860B724C3F8CF00CB6EF0 /* Frameworks */,
 				04F860B824C3F8CF00CB6EF0 /* Resources */,
+				0A9A401BD020D5A622DDC0F7 /* [CP] Embed Pods Frameworks */,
+				8CB9B75BF805D4A0BD75D01A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +530,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E6213C24C4750C0016A87E /* 58.png in Resources */,
+				0455F6EC24C402540024AEDB /* CityTableViewCell.xib in Resources */,
+				0455F6E824C402190024AEDB /* NearByTableViewCell.xib in Resources */,
+				047B9E5B24C42149007F625B /* partlysunny.png in Resources */,
 				04F860A924C3F8CF00CB6EF0 /* LaunchScreen.storyboard in Resources */,
+				0455F6F024C402A00024AEDB /* WeatherCityTableViewCell.xib in Resources */,
+				0455F72E24C40C720024AEDB /* Back.png in Resources */,
 				04F860A624C3F8CF00CB6EF0 /* Assets.xcassets in Resources */,
+				0455F72724C40AA70024AEDB /* style.json in Resources */,
 				04F860A124C3F8CD00CB6EF0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +559,191 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A9A401BD020D5A622DDC0F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		316E1AA2D1D2AE0BF53C328A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79B82953914267C701F0C514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knoxpo-pa-20-mobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB9B75BF805D4A0BD75D01A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42EDC51F26D255D3B4B7E86 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-knoxpo-pa-20-mobile/Pods-knoxpo-pa-20-mobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E54553EFC5F93E38BF5D699C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knoxpo-pa-20-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5380B7DB7224D27C8E61668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F8609424C3F8CC00CB6EF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0455F70924C407F10024AEDB /* CityJson.swift in Sources */,
+				0455F6D424C3FFAD0024AEDB /* MainController.swift in Sources */,
+				0455F71624C4090C0024AEDB /* BaseRequest.swift in Sources */,
+				0455F6DC24C400580024AEDB /* SearchViewController.swift in Sources */,
+				0455F6EA24C4023D0024AEDB /* CityTableViewCell.swift in Sources */,
+				0455F6D524C3FFAD0024AEDB /* FileExtenstions.swift in Sources */,
+				0455F72424C40A120024AEDB /* DataTimeFormat.swift in Sources */,
+				0455F71124C4088E0024AEDB /* Serializer.swift in Sources */,
+				0455F6FD24C405EA0024AEDB /* City+CoreDataProperties.swift in Sources */,
+				0455F71424C408F80024AEDB /* APIRequest.swift in Sources */,
+				0455F70F24C408630024AEDB /* JSONSerializer.swift in Sources */,
+				0455F72924C40ABE0024AEDB /* Constants.swift in Sources */,
+				0455F6DA24C3FFAD0024AEDB /* FileUrlClass.swift in Sources */,
+				0455F6D924C3FFAD0024AEDB /* WeatherCell.swift in Sources */,
+				0455F6E224C401520024AEDB /* Main1ViewController.swift in Sources */,
+				0455F72B24C40AE10024AEDB /* RoundedButton.swift in Sources */,
+				0455F70D24C4081B0024AEDB /* NearPlaceJson.swift in Sources */,
+				0455F6E424C4018D0024AEDB /* CitiesViewController.swift in Sources */,
+				0455F71824C409210024AEDB /* GetWeatherForCity.swift in Sources */,
+				0455F71C24C409470024AEDB /* GetWeatherNearBy.swift in Sources */,
+				0455F72024C409D20024AEDB /* APIProvider.swift in Sources */,
+				0455F6F224C403EE0024AEDB /* CurrentLocationViewController + Location.swift in Sources */,
+				0455F6D724C3FFAD0024AEDB /* FileForecastwheather.swift in Sources */,
+				0455F6E624C401F30024AEDB /* NearByTableViewCell.swift in Sources */,
+				0455F72224C409E70024AEDB /* InternetCheck.swift in Sources */,
 				04F8609E24C3F8CD00CB6EF0 /* ViewController.swift in Sources */,
+				0455F6E024C400F30024AEDB /* CurrentLocationViewController.swift in Sources */,
+				0455F70324C4063A0024AEDB /* CoreDataProvider.swift in Sources */,
+				0455F6F824C404800024AEDB /* PlacemarkCity.swift in Sources */,
+				0455F6DE24C400A40024AEDB /* DetailsWeatherTableViewController.swift in Sources */,
+				0455F71E24C409BE0024AEDB /* APIClient.swift in Sources */,
+				0455F6D824C3FFAD0024AEDB /* FileWeather.swift in Sources */,
+				0455F6FA24C4049F0024AEDB /* DayWeatherModel.swift in Sources */,
+				0455F71A24C409340024AEDB /* GetWeatherForecast.swift in Sources */,
 				04F8609C24C3F8CD00CB6EF0 /* AppDelegate.swift in Sources */,
+				0455F6EE24C402880024AEDB /* WeatherCityTableViewCell.swift in Sources */,
+				0455F70124C406220024AEDB /* CoreDataManager.swift in Sources */,
+				0455F6F624C4042B0024AEDB /* UIColor + HEX.swift in Sources */,
+				0455F6F424C404060024AEDB /* UIViewController + Loader.swift in Sources */,
+				0455F70B24C408050024AEDB /* ForcastJson.swift in Sources */,
+				0455F6D624C3FFAD0024AEDB /* FileLocation.swift in Sources */,
 				04F860A424C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodeld in Sources */,
+				0455F6FF24C406060024AEDB /* City+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +833,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -412,6 +895,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -434,42 +918,149 @@
 		};
 		04F860C424C3F8CF00CB6EF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A170C9D845223134D612C029 /* Pods-knoxpo-pa-20-mobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 366LK5MU52;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "knoxpo-pa-20-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CarbonKit\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Metal\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PKHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
 		04F860C524C3F8CF00CB6EF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92230455E8283052F0FA4155 /* Pods-knoxpo-pa-20-mobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 366LK5MU52;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "knoxpo-pa-20-mobile/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CarbonKit\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"Metal\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PKHUD\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
 		04F860C724C3F8CF00CB6EF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA2E6A3A23249A87F23CD7D /* Pods-knoxpo-pa-20-mobileTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +1082,7 @@
 		};
 		04F860C824C3F8CF00CB6EF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C2E0BD9CE86952BAE5B601B /* Pods-knoxpo-pa-20-mobileTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +1104,7 @@
 		};
 		04F860CA24C3F8CF00CB6EF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517BC4F0F035EF12FA60D4CF /* Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +1125,7 @@
 		};
 		04F860CB24C3F8CF00CB6EF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8842722B8943F7A4E1F0DA /* Pods-knoxpo-pa-20-mobile-knoxpo-pa-20-mobileUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

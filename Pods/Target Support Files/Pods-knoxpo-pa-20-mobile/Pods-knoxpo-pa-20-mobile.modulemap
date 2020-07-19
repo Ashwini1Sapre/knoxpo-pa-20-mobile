@@ -1,0 +1,6 @@
+framework module Pods_knoxpo_pa_20_mobile {
+  umbrella header "Pods-knoxpo-pa-20-mobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

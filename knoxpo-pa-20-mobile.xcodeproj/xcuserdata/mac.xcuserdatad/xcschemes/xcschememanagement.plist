@@ -7,7 +7,25 @@
 		<key>knoxpo-pa-20-mobile.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>10</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>04F8609724C3F8CC00CB6EF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04F860AE24C3F8CF00CB6EF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>04F860B924C3F8CF00CB6EF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
