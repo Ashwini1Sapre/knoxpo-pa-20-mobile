@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F8609C24C3F8CD00CB6EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8609B24C3F8CC00CB6EF0 /* AppDelegate.swift */; };
+		04F8609E24C3F8CD00CB6EF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F8609D24C3F8CD00CB6EF0 /* ViewController.swift */; };
+		04F860A124C3F8CD00CB6EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F8609F24C3F8CD00CB6EF0 /* Main.storyboard */; };
+		04F860A424C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04F860A224C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodeld */; };
+		04F860A624C3F8CF00CB6EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F860A524C3F8CF00CB6EF0 /* Assets.xcassets */; };
+		04F860A924C3F8CF00CB6EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F860A724C3F8CF00CB6EF0 /* LaunchScreen.storyboard */; };
+		04F860B424C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F860B324C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift */; };
+		04F860BF24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F860BE24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F860B024C3F8CF00CB6EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F8609024C3F8CC00CB6EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F8609724C3F8CC00CB6EF0;
+			remoteInfo = "knoxpo-pa-20-mobile";
+		};
+		04F860BB24C3F8CF00CB6EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F8609024C3F8CC00CB6EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F8609724C3F8CC00CB6EF0;
+			remoteInfo = "knoxpo-pa-20-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F8609824C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "knoxpo-pa-20-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F8609B24C3F8CC00CB6EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F8609D24C3F8CD00CB6EF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F860A024C3F8CD00CB6EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F860A324C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = knoxpo_pa_20_mobile.xcdatamodel; sourceTree = "<group>"; };
+		04F860A524C3F8CF00CB6EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F860A824C3F8CF00CB6EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F860AA24C3F8CF00CB6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F860AF24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knoxpo-pa-20-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F860B324C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knoxpo_pa_20_mobileTests.swift; sourceTree = "<group>"; };
+		04F860B524C3F8CF00CB6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F860BA24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "knoxpo-pa-20-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F860BE24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = knoxpo_pa_20_mobileUITests.swift; sourceTree = "<group>"; };
+		04F860C024C3F8CF00CB6EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F8609524C3F8CC00CB6EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F860AC24C3F8CF00CB6EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F860B724C3F8CF00CB6EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F8608F24C3F8CC00CB6EF0 = {
+			isa = PBXGroup;
+			children = (
+				04F8609A24C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */,
+				04F860B224C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests */,
+				04F860BD24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests */,
+				04F8609924C3F8CC00CB6EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F8609924C3F8CC00CB6EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F8609824C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile.app */,
+				04F860AF24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests.xctest */,
+				04F860BA24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F8609A24C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				04F8609B24C3F8CC00CB6EF0 /* AppDelegate.swift */,
+				04F8609D24C3F8CD00CB6EF0 /* ViewController.swift */,
+				04F8609F24C3F8CD00CB6EF0 /* Main.storyboard */,
+				04F860A524C3F8CF00CB6EF0 /* Assets.xcassets */,
+				04F860A724C3F8CF00CB6EF0 /* LaunchScreen.storyboard */,
+				04F860AA24C3F8CF00CB6EF0 /* Info.plist */,
+				04F860A224C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodeld */,
+			);
+			path = "knoxpo-pa-20-mobile";
+			sourceTree = "<group>";
+		};
+		04F860B224C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F860B324C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift */,
+				04F860B524C3F8CF00CB6EF0 /* Info.plist */,
+			);
+			path = "knoxpo-pa-20-mobileTests";
+			sourceTree = "<group>";
+		};
+		04F860BD24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F860BE24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift */,
+				04F860C024C3F8CF00CB6EF0 /* Info.plist */,
+			);
+			path = "knoxpo-pa-20-mobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F8609724C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F860C324C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobile" */;
+			buildPhases = (
+				04F8609424C3F8CC00CB6EF0 /* Sources */,
+				04F8609524C3F8CC00CB6EF0 /* Frameworks */,
+				04F8609624C3F8CC00CB6EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "knoxpo-pa-20-mobile";
+			productName = "knoxpo-pa-20-mobile";
+			productReference = 04F8609824C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F860AE24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F860C624C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobileTests" */;
+			buildPhases = (
+				04F860AB24C3F8CF00CB6EF0 /* Sources */,
+				04F860AC24C3F8CF00CB6EF0 /* Frameworks */,
+				04F860AD24C3F8CF00CB6EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F860B124C3F8CF00CB6EF0 /* PBXTargetDependency */,
+			);
+			name = "knoxpo-pa-20-mobileTests";
+			productName = "knoxpo-pa-20-mobileTests";
+			productReference = 04F860AF24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F860B924C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F860C924C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobileUITests" */;
+			buildPhases = (
+				04F860B624C3F8CF00CB6EF0 /* Sources */,
+				04F860B724C3F8CF00CB6EF0 /* Frameworks */,
+				04F860B824C3F8CF00CB6EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F860BC24C3F8CF00CB6EF0 /* PBXTargetDependency */,
+			);
+			name = "knoxpo-pa-20-mobileUITests";
+			productName = "knoxpo-pa-20-mobileUITests";
+			productReference = 04F860BA24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F8609024C3F8CC00CB6EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Girish Purandare";
+				TargetAttributes = {
+					04F8609724C3F8CC00CB6EF0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					04F860AE24C3F8CF00CB6EF0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 04F8609724C3F8CC00CB6EF0;
+					};
+					04F860B924C3F8CF00CB6EF0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 04F8609724C3F8CC00CB6EF0;
+					};
+				};
+			};
+			buildConfigurationList = 04F8609324C3F8CC00CB6EF0 /* Build configuration list for PBXProject "knoxpo-pa-20-mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F8608F24C3F8CC00CB6EF0;
+			productRefGroup = 04F8609924C3F8CC00CB6EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F8609724C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */,
+				04F860AE24C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileTests */,
+				04F860B924C3F8CF00CB6EF0 /* knoxpo-pa-20-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F8609624C3F8CC00CB6EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F860A924C3F8CF00CB6EF0 /* LaunchScreen.storyboard in Resources */,
+				04F860A624C3F8CF00CB6EF0 /* Assets.xcassets in Resources */,
+				04F860A124C3F8CD00CB6EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F860AD24C3F8CF00CB6EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F860B824C3F8CF00CB6EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F8609424C3F8CC00CB6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F8609E24C3F8CD00CB6EF0 /* ViewController.swift in Sources */,
+				04F8609C24C3F8CD00CB6EF0 /* AppDelegate.swift in Sources */,
+				04F860A424C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F860AB24C3F8CF00CB6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F860B424C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F860B624C3F8CF00CB6EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F860BF24C3F8CF00CB6EF0 /* knoxpo_pa_20_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F860B124C3F8CF00CB6EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F8609724C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */;
+			targetProxy = 04F860B024C3F8CF00CB6EF0 /* PBXContainerItemProxy */;
+		};
+		04F860BC24C3F8CF00CB6EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F8609724C3F8CC00CB6EF0 /* knoxpo-pa-20-mobile */;
+			targetProxy = 04F860BB24C3F8CF00CB6EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F8609F24C3F8CD00CB6EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F860A024C3F8CD00CB6EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F860A724C3F8CF00CB6EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F860A824C3F8CF00CB6EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F860C124C3F8CF00CB6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F860C224C3F8CF00CB6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F860C424C3F8CF00CB6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366LK5MU52;
+				INFOPLIST_FILE = "knoxpo-pa-20-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F860C524C3F8CF00CB6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366LK5MU52;
+				INFOPLIST_FILE = "knoxpo-pa-20-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F860C724C3F8CF00CB6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366LK5MU52;
+				INFOPLIST_FILE = "knoxpo-pa-20-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knoxpo-pa-20-mobile.app/knoxpo-pa-20-mobile";
+			};
+			name = Debug;
+		};
+		04F860C824C3F8CF00CB6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366LK5MU52;
+				INFOPLIST_FILE = "knoxpo-pa-20-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/knoxpo-pa-20-mobile.app/knoxpo-pa-20-mobile";
+			};
+			name = Release;
+		};
+		04F860CA24C3F8CF00CB6EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366LK5MU52;
+				INFOPLIST_FILE = "knoxpo-pa-20-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "knoxpo-pa-20-mobile";
+			};
+			name = Debug;
+		};
+		04F860CB24C3F8CF00CB6EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 366LK5MU52;
+				INFOPLIST_FILE = "knoxpo-pa-20-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sysfort.knoxpo-pa-20-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "knoxpo-pa-20-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F8609324C3F8CC00CB6EF0 /* Build configuration list for PBXProject "knoxpo-pa-20-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F860C124C3F8CF00CB6EF0 /* Debug */,
+				04F860C224C3F8CF00CB6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F860C324C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F860C424C3F8CF00CB6EF0 /* Debug */,
+				04F860C524C3F8CF00CB6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F860C624C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F860C724C3F8CF00CB6EF0 /* Debug */,
+				04F860C824C3F8CF00CB6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F860C924C3F8CF00CB6EF0 /* Build configuration list for PBXNativeTarget "knoxpo-pa-20-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F860CA24C3F8CF00CB6EF0 /* Debug */,
+				04F860CB24C3F8CF00CB6EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04F860A224C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04F860A324C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodel */,
+			);
+			currentVersion = 04F860A324C3F8CD00CB6EF0 /* knoxpo_pa_20_mobile.xcdatamodel */;
+			path = knoxpo_pa_20_mobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04F8609024C3F8CC00CB6EF0 /* Project object */;
+}
