@@ -20,9 +20,11 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         
         navigationItem.title = "Search city"
+        
         self.tableView.register(UINib(nibName: String(describing: CityTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: CityTableViewCell.self))
         self.tableView.rowHeight = UITableViewAutomaticDimension
         self.tableView.estimatedRowHeight = 80
+        
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:)))
         tap.cancelsTouchesInView = false
         self.view.addGestureRecognizer(tap)

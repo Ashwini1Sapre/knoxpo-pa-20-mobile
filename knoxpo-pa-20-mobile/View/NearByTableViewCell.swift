@@ -13,6 +13,7 @@ class NearByTableViewCell: UITableViewCell {
     @IBOutlet weak var LatLabel: UILabel!
     @IBOutlet weak var LongLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
+      @IBOutlet weak var NameLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

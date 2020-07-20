@@ -98,9 +98,12 @@ class MainController: UIViewController, CLLocationManagerDelegate
             // Get the location from the device
             currentLocation = locationManager.location
             
-            // Pass the location coord to our API
-           Location.sharedInstance.latitude = 18.6298
-            Location.sharedInstance.longitude = 73.7997
+     Location.sharedInstance.latitude = currentLocation.coordinate.latitude
+              Location.sharedInstance.longitude = currentLocation.coordinate.longitude
+                     
+           
+            //Location.sharedInstance.latitude = 18.6298
+                              //  Location.sharedInstance.longitude = 73.7997
             
             
             //18.6298, 73.7997

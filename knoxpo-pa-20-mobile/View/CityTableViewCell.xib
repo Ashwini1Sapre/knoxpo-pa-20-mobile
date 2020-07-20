@@ -47,7 +47,7 @@
                 <outlet property="cityNameLabel" destination="5jU-6C-77x" id="XOA-gF-DAb"/>
                 <outlet property="countryCityLabel" destination="JOO-iw-xrv" id="Otf-UB-5Xn"/>
             </connections>
-            <point key="canvasLocation" x="25" y="69"/>
+            <point key="canvasLocation" x="24.637681159420293" y="68.973214285714278"/>
         </tableViewCell>
     </objects>
 </document>

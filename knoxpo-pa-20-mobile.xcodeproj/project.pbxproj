@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0454A63624C5472600869567 /* NearbyDeataiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0454A63524C5472600869567 /* NearbyDeataiViewController.swift */; };
 		0455F6D424C3FFAD0024AEDB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6C924C3FFAB0024AEDB /* MainController.swift */; };
 		0455F6D524C3FFAD0024AEDB /* FileExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6CB24C3FFAC0024AEDB /* FileExtenstions.swift */; };
 		0455F6D624C3FFAD0024AEDB /* FileLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455F6CD24C3FFAC0024AEDB /* FileLocation.swift */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0454A63524C5472600869567 /* NearbyDeataiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyDeataiViewController.swift; sourceTree = "<group>"; };
 		0455F6C924C3FFAB0024AEDB /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		0455F6CB24C3FFAC0024AEDB /* FileExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileExtenstions.swift; sourceTree = "<group>"; };
 		0455F6CD24C3FFAC0024AEDB /* FileLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLocation.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				0455F6DF24C400F30024AEDB /* CurrentLocationViewController.swift */,
 				0455F6E124C401520024AEDB /* Main1ViewController.swift */,
 				0455F6E324C4018D0024AEDB /* CitiesViewController.swift */,
+				0454A63524C5472600869567 /* NearbyDeataiViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,7 +258,6 @@
 			isa = PBXGroup;
 			children = (
 				0455F72F24C41A110024AEDB /* CoreDataManager */,
-				0455F70224C4063A0024AEDB /* CoreDataProvider.swift */,
 			);
 			path = CoreDataModule;
 			sourceTree = "<group>";
@@ -336,6 +338,7 @@
 		0455F72F24C41A110024AEDB /* CoreDataManager */ = {
 			isa = PBXGroup;
 			children = (
+				0455F70224C4063A0024AEDB /* CoreDataProvider.swift */,
 				0455F6FC24C405EA0024AEDB /* City+CoreDataProperties.swift */,
 				0455F6FE24C406060024AEDB /* City+CoreDataClass.swift */,
 				0455F70024C406220024AEDB /* CoreDataManager.swift */,
@@ -723,6 +726,7 @@
 				0455F71C24C409470024AEDB /* GetWeatherNearBy.swift in Sources */,
 				0455F72024C409D20024AEDB /* APIProvider.swift in Sources */,
 				0455F6F224C403EE0024AEDB /* CurrentLocationViewController + Location.swift in Sources */,
+				0454A63624C5472600869567 /* NearbyDeataiViewController.swift in Sources */,
 				0455F6D724C3FFAD0024AEDB /* FileForecastwheather.swift in Sources */,
 				0455F6E624C401F30024AEDB /* NearByTableViewCell.swift in Sources */,
 				0455F72224C409E70024AEDB /* InternetCheck.swift in Sources */,

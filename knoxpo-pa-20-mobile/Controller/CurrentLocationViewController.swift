@@ -194,6 +194,33 @@ class CurrentLocationViewController: UIViewController {
             showMessage("No Internet")
         }
     }
+   
+    
+    @IBAction func NearbyDetail(_ sender: Any)
+    {
+           if InternetCheck.isConnectedToNetwork() {
+                 //let defaults = UserDefaults.standard
+                       //     let myarrayName = defaults.stringArray(forKey: "SavedNameArray") ?? [String]()
+               //  let viewController = DetailsWeatherTableViewController()
+               //  viewController.nameCity = myarrayName[0]
+                // navigationController?.pushViewController(viewController, animated: true)
+            
+            let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "NearbyDeataiViewController") as? NearbyDeataiViewController
+                   self.navigationController?.pushViewController(secondVC!, animated: true)
+                   
+            
+            
+             }else {
+                 stopTimer()
+                 showMessage("No Internet")
+             }
+        
+        
+    }
+    
+    
+    
+    
     
     @objc func update() {
         
